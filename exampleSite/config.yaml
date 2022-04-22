@@ -71,9 +71,9 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Diego."
-    subtitle: "I build infraestructure in the Cloud"
-    content: "I am a DevOps Engineer with a passion for Cloud and Automatition."
+    title: "Diego A. Toro Ramirez"
+    subtitle: "I build skyscrapers in the cloud ☁️"
+    content: "I am a DevOps Engineer with a passion for Cloud and Automatition. I am an enthusiast of this new era of technological innovations"
     image: /images/hero.jpg
     button:
       enable: true
@@ -83,8 +83,12 @@ params:
       fontAwesomeIcons:
         - icon: fab fa-github
           url: https://github.com/toromuu
+        - icon: fab fa-gitlab
+          url: https://gitlab.com/toromuu
         - icon: fab fa-linkedin
           url: https://www.linkedin.com/in/diego-a-t-04726516b/
+
+          
 
   # About
   about:
@@ -92,10 +96,7 @@ params:
     title: "About Me"
     image: "/images/me.jpg"
     content: |-
-      I am an enthusiast of this new era of technological innovations. I would like to say that I am already a engineer but I still have a long way to go, learning and having fun every day.
-
       I have a background in computer science and I am currently finishing a master's degree in cloud computing and high performance in Valencia.
-
       I am at a stage in my life where I have ambition to learn by putting into practice all my knowledge, innovate and develop solutions that change people's lives.
     
     skills:
@@ -123,6 +124,7 @@ params:
         date: "Feb 2021 - Aug 2021"
         featuredLink:
           enable: true
+          name: "Official title"
           url: "https://www.capgemini.com/es-es/client-story/sncf-reseau-and-capgemini-set-up-a-surveillance-and-supervision-program-for-the-rail-network/"
         info:
           enable: true
@@ -143,9 +145,9 @@ params:
         date: "June 2019 - Sept 2021"
         featuredLink:
           enable: true
-          content: It started as a summer job, and I ended up leading a small team of lifeguards. I continue to volunteer for various activities .
+          content: 
         content: |
-           A volunteer experience that helped me to put into practice skills such as good communication, responsibility, trust, cooperation, efficient administration of resources and management of a workgroup, in a context of high danger in which it is necessary to deal with the management of high-stress situations.
+           A volunteer experience that helped me to put into practice skills such as good communication, responsibility, trust, cooperation, efficient administration of resources and management of a workgroup, in a context of high danger in which it is necessary to deal with the management of high-stress situations.It started as a summer job, and I ended up leading a small team of lifeguards. I continue to volunteer for various activities .
 
   # Education
   education:
@@ -177,7 +179,7 @@ params:
           url: "https://drive.google.com/file/d/1IPIlydXUH3ebsO1Y4zNHGdIyJJ4ZH8lS/view?usp=sharing"
 
   # Achievements
-  Licenses & certifications:
+  achievements:
     enable: true
     items:
       - title: Microsoft Certified Azure Fundamentals
@@ -250,5 +252,6 @@ params:
     # recentPosts: false
     socialNetworks:
       github: https://github.com/toromuu
+      gitlab: https://gitlab.com/toromuu
       linkedin: https://www.linkedin.com/in/diego-a-t-04726516b/
 
