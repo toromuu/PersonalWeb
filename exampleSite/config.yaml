@@ -207,7 +207,7 @@ params:
             url: https://gitlab.com/toromuu/overlay
 
       - title: RaspberryPi-Ansible-Test-Environment
-        content: A virtualized test environment where you can test your ansible playbooks on 3 full ARM based Raspberry Pi virtual machines.
+        content: A virtualized test environment where you can test your ansible playbooks on 3 full ARM based Raspberry Pi virtual machines. The project has the following architecture, where we have a container with everything necessary to run the ansible playbooks and three other Raspberry Pi containers that will be the target of the playbooks.
         image: /images/projects/Raspberry.png
         featured:
           name: Repository
