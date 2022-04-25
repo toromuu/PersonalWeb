@@ -249,7 +249,7 @@ params:
           - icon: fab fa-github
             url: https://github.com/albmarti/icp-project
 
-      - title: Terraform web-mail infraestructure
+      - title: PaaS API-REST
         content: Kumori Platform is a service to automate the complete SaaS software life cycle. This example shows how to build and deploy a Kumori Service Application composed of four components. The repository contains both the manifests needed to deploy the Characters Store Service Application within a Kumori Platorm, and the source code used to build the docker images of the four components. Characters Store Service Application exposes a REST API with a functions to retrieve and store characters.
         image: /images/projects/Kumori.png
         featured:
