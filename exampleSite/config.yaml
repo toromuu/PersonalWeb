@@ -4,7 +4,7 @@ title: "Diego A. Toro Ramirez"
 theme: hugo-profile
 
 Paginate: 3
-disqusShortname: gurusabarish
+disqusShortname: toromuu
 googleAnalytics: G-DWJJVE27WD
 
 markup:
@@ -12,13 +12,6 @@ markup:
     renderer:
       unsafe: true
 
-Menus:
-  main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
-      weight: 1
 
 params:
   title: "Diego A. Toro Ramirez"
@@ -72,8 +65,8 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Diego A. Toro Ramirez"
-    subtitle: "I build skyscrapers in the cloud ☁️"
-    content: "I am a DevOps Engineer with a passion for Cloud and Automatition. I am an enthusiast of this new era of technological innovations"
+    subtitle: "I build infraestructure in the cloud ☁️"
+    content: "I am a DevOps Engineer with a passion for Cloud and Automatition."
     image: /images/hero.jpg
     button:
       enable: true
@@ -96,6 +89,7 @@ params:
     title: "About Me"
     image: "/images/me.jpg"
     content: |-
+      Hi! I am an enthusiast of this new era of technological innovations.
       I have a background in computer science and I am currently finishing a master's degree in cloud computing and high performance in Valencia.
       I am at a stage in my life where I have ambition to learn by putting into practice all my knowledge, innovate and develop solutions that change people's lives.
     
@@ -124,7 +118,7 @@ params:
         date: "Feb 2021 - Aug 2021"
         featuredLink:
           enable: true
-          name: "Official title"
+          name: "website"
           url: "https://www.capgemini.com/es-es/client-story/sncf-reseau-and-capgemini-set-up-a-surveillance-and-supervision-program-for-the-rail-network/"
         info:
           enable: true
@@ -141,11 +135,12 @@ params:
 
       - job: "Coast-Lifeguard"
         company: "Cruz Roja"
-        companyUrl: "https://www.cruzroja.es/principal/web/cruz-roja/territorial?centro=15672"
+        companyUrl: "https://www2.cruzroja.es/"
         date: "June 2019 - Sept 2021"
         featuredLink:
           enable: true
-          content: 
+          name: "website"
+          url: "https://www.cruzroja.es/principal/web/cruz-roja/territorial?centro=15672"
         content: |
            A volunteer experience that helped me to put into practice skills such as good communication, responsibility, trust, cooperation, efficient administration of resources and management of a workgroup, in a context of high danger in which it is necessary to deal with the management of high-stress situations.It started as a summer job, and I ended up leading a small team of lifeguards. I continue to volunteer for various activities .
 
@@ -196,50 +191,63 @@ params:
   projects:
     enable: true
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
+      - title: OVERLAY
+        content: It is used to deploy a network of linux containers. It allows to understand how container networks work in detail.
+        image: /images/projects/Scenario.png
         featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
-        # badges:
-        #   - "Hugo"
-        #   - "Bootstrap"
-        #   - "Javascript"
+          name: Repository
+          link: https://gitlab.com/toromuu/overlay
+          badges:
+           - "Vagrant"
+           - "Linux"
+           - "Docker"
+           - "Networks"
         links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+          - icon: fab fa-gitlab
+            url: https://gitlab.com/toromuu/overlay
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
+      - title: RaspberryPi-Ansible-Test-Environment
+        content: A virtualized test environment where you can test your ansible playbooks on 3 full ARM based Raspberry Pi virtual machines.
+        image: /images/projects/Raspberry.png
         featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
-        # badges:
-        #   - "Django"
-        #   - "Bootstrap"
+          name: Repository
+          link: https://github.com/toromuu/RaspberryPi-Ansible-Test-Environment
+          badges:
+           - "Docker"
+           - "Ansible"
+           - "Raspberry PI"
+        links:
+          - icon: fab fa-gitlab
+            url: https://github.com/toromuu/RaspberryPi-Ansible-Test-Environment
+    
+      - title: Pipeline CI/CD Template
+        content: The project tries to cover almost all the theoretical stages of a CI/CD pipeline
+        image: /images/projects/Arquitecture.png
+        featured:
+          name: Repository
+          link: https://github.com/toromuu/PipelineTemplate
+          badges:
+           - "Docker"
+           - "Ansible"
+           - "Terraform"
+           - "Jenkins"
+           - "CI/CD"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
-
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
+            url: https://github.com/toromuu/PipelineTemplate
+      
+      - title: Terraform web-mail infraestructure
+        content: A project to deploy through Terraform an infrastructure in AWS to deploy a webmail service.
+        image: /images/projects/Diagram.png
         featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
-        # badges:
-        #   - "Hugo"
-        #   - "Bootstrap"
-        #   - "Javascript"
+          name: Repository
+          link: https://github.com/albmarti/icp-project
+          badges:
+           - "Terraform"
+           - "AWS"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/albmarti/icp-project
 
   #Contact
   contact:
