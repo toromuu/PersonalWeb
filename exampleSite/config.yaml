@@ -66,7 +66,7 @@ params:
     intro: "Hi, my name is"
     title: "Diego A. Toro Ramirez"
     subtitle: "I build infraestructure in the cloud ☁️"
-    content: "I am a DevOps Engineer with a passion for Cloud and Automatition."
+    content: "I am a DevOps Engineer with a passion for Cloud and Automation."
     image: /images/hero.jpg
     button:
       enable: true
